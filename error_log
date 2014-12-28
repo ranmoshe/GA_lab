@@ -1,0 +1,14 @@
+[24-Dec-2014 12:51:30 Asia/Jerusalem] PHP Fatal error:  Uncaught exception 'Google_Exception' with message 'Cant add services after having authenticated' in /home/instanta/sites/analyzit.co.il/lab/src/Google_Client.php:115
+Stack trace:
+#0 /home/instanta/sites/analyzit.co.il/lab/src/contrib/Google_AnalyticsService.php(583): Google_Client->addService('analytics', 'v3')
+#1 /home/instanta/sites/analyzit.co.il/lab/import.php(125): Google_AnalyticsService->__construct(Object(Google_Client))
+#2 {main}
+  thrown in /home/instanta/sites/analyzit.co.il/lab/src/Google_Client.php on line 115
+[28-Dec-2014 13:17:07 Asia/Jerusalem] PHP Fatal error:  Uncaught exception 'Google_Exception' with message 'Cant add services after having authenticated' in /home/instanta/sites/analyzit.co.il/lab/src/Google_Client.php:115
+Stack trace:
+#0 /home/instanta/sites/analyzit.co.il/lab/src/contrib/Google_AnalyticsService.php(583): Google_Client->addService('analytics', 'v3')
+#1 /home/instanta/sites/analyzit.co.il/lab/import.php(125): Google_AnalyticsService->__construct(Object(Google_Client))
+#2 {main}
+  thrown in /home/instanta/sites/analyzit.co.il/lab/src/Google_Client.php on line 115
+[28-Dec-2014 13:29:07 Asia/Jerusalem] PHP Notice:  Undefined variable: results in /home/instanta/sites/analyzit.co.il/lab/import.php on line 143
+[28-Dec-2014 13:29:07 Asia/Jerusalem] PHP Fatal error:  Call to a member function getRows() on a non-object in /home/instanta/sites/analyzit.co.il/lab/ga_class.inc.php on line 746
