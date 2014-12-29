@@ -351,9 +351,21 @@ $out='<label onclick="open_close(\'#'.$hid.'\')">'.$type.'</label>
 	$out.=$this->draw_dimensions_segment('ga:experimentVariant');
 	break;
 	case 'Custom Variables or Columns':
-	$out.=$this->draw_dimensions_segment('ga:customVarNameXX');
-	$out.=$this->draw_dimensions_segment('ga:customVarValueXX');
-	$out.=$this->draw_dimensions_segment('ga:dimensionXX');
+	$out.=$this->draw_dimensions_segment('ga:customVarName01');
+	$out.=$this->draw_dimensions_segment('ga:customVarName02');
+	$out.=$this->draw_dimensions_segment('ga:customVarName03');
+	$out.=$this->draw_dimensions_segment('ga:customVarName04');
+	$out.=$this->draw_dimensions_segment('ga:customVarName05');
+	$out.=$this->draw_dimensions_segment('ga:customVarValue01');
+	$out.=$this->draw_dimensions_segment('ga:customVarValue02');
+	$out.=$this->draw_dimensions_segment('ga:customVarValue03');
+	$out.=$this->draw_dimensions_segment('ga:customVarValue04');
+	$out.=$this->draw_dimensions_segment('ga:customVarValue05');
+	$out.=$this->draw_dimensions_segment('ga:dimension01');
+	$out.=$this->draw_dimensions_segment('ga:dimension02');
+	$out.=$this->draw_dimensions_segment('ga:dimension03');
+	$out.=$this->draw_dimensions_segment('ga:dimension04');
+	$out.=$this->draw_dimensions_segment('ga:dimension05');
 	break;
 	case 'Time':
 	$out.=$this->draw_dimensions_segment('ga:date');
