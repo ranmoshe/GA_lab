@@ -351,21 +351,21 @@ $out='<label onclick="open_close(\'#'.$hid.'\')">'.$type.'</label>
 	$out.=$this->draw_dimensions_segment('ga:experimentVariant');
 	break;
 	case 'Custom Variables or Columns':
-	$out.=$this->draw_dimensions_segment('ga:customVarName01');
-	$out.=$this->draw_dimensions_segment('ga:customVarName02');
-	$out.=$this->draw_dimensions_segment('ga:customVarName03');
-	$out.=$this->draw_dimensions_segment('ga:customVarName04');
-	$out.=$this->draw_dimensions_segment('ga:customVarName05');
-	$out.=$this->draw_dimensions_segment('ga:customVarValue01');
-	$out.=$this->draw_dimensions_segment('ga:customVarValue02');
-	$out.=$this->draw_dimensions_segment('ga:customVarValue03');
-	$out.=$this->draw_dimensions_segment('ga:customVarValue04');
-	$out.=$this->draw_dimensions_segment('ga:customVarValue05');
-	$out.=$this->draw_dimensions_segment('ga:dimension01');
-	$out.=$this->draw_dimensions_segment('ga:dimension02');
-	$out.=$this->draw_dimensions_segment('ga:dimension03');
-	$out.=$this->draw_dimensions_segment('ga:dimension04');
-	$out.=$this->draw_dimensions_segment('ga:dimension05');
+	$out.=$this->draw_dimensions_segment('ga:customVarName1');
+	$out.=$this->draw_dimensions_segment('ga:customVarName2');
+	$out.=$this->draw_dimensions_segment('ga:customVarName3');
+	$out.=$this->draw_dimensions_segment('ga:customVarName4');
+	$out.=$this->draw_dimensions_segment('ga:customVarName5');
+	$out.=$this->draw_dimensions_segment('ga:customVarValue1');
+	$out.=$this->draw_dimensions_segment('ga:customVarValue2');
+	$out.=$this->draw_dimensions_segment('ga:customVarValue3');
+	$out.=$this->draw_dimensions_segment('ga:customVarValue4');
+	$out.=$this->draw_dimensions_segment('ga:customVarValue5');
+	$out.=$this->draw_dimensions_segment('ga:dimension1');
+	$out.=$this->draw_dimensions_segment('ga:dimension2');
+	$out.=$this->draw_dimensions_segment('ga:dimension3');
+	$out.=$this->draw_dimensions_segment('ga:dimension4');
+	$out.=$this->draw_dimensions_segment('ga:dimension5');
 	break;
 	case 'Time':
 	$out.=$this->draw_dimensions_segment('ga:date');
@@ -453,18 +453,18 @@ $out='<label onclick="open_close(\'#'.$hid.'\')">'.$type.'</label>
 	$out.=$this->draw_metrics_segment('ga:margin');
 	break;
 	case 'Goal Conversions':
-	$out.=$this->draw_metrics_segment('ga:goalXXStarts');
+	$out.=$this->draw_metrics_segment('ga:goal1Starts');
 	$out.=$this->draw_metrics_segment('ga:goalStartsAll');
-	$out.=$this->draw_metrics_segment('ga:goalXXCompletions');
+	$out.=$this->draw_metrics_segment('ga:goal1Completions');
 	$out.=$this->draw_metrics_segment('ga:goalCompletionsAll');
-	$out.=$this->draw_metrics_segment('ga:goalXXValue');
+	$out.=$this->draw_metrics_segment('ga:goal1Value');
 	$out.=$this->draw_metrics_segment('ga:goalValueAll');
 	$out.=$this->draw_metrics_segment('ga:goalValuePerVisit');
-	$out.=$this->draw_metrics_segment('ga:goalXXConversionRate');
+	$out.=$this->draw_metrics_segment('ga:goal1ConversionRate');
 	$out.=$this->draw_metrics_segment('ga:goalConversionRateAll');
-	$out.=$this->draw_metrics_segment('ga:goalXXAbandons');
+	$out.=$this->draw_metrics_segment('ga:goal1Abandons');
 	$out.=$this->draw_metrics_segment('ga:goalAbandonsAll');
-	$out.=$this->draw_metrics_segment('ga:goalXXAbandonRate');
+	$out.=$this->draw_metrics_segment('ga:goal1AbandonRate');
 	$out.=$this->draw_metrics_segment('ga:goalAbandonRateAll');
 	break;
 	case 'Social Activities':
@@ -496,7 +496,7 @@ $out='<label onclick="open_close(\'#'.$hid.'\')">'.$type.'</label>
 	$out.=$this->draw_metrics_segment('ga:percentSearchRefinements');
 	$out.=$this->draw_metrics_segment('ga:avgSearchDuration');
 	$out.=$this->draw_metrics_segment('ga:searchExitRate');
-	$out.=$this->draw_metrics_segment('ga:searchGoalXXConversionRate');
+	$out.=$this->draw_metrics_segment('ga:searchGoal1ConversionRate');
 	$out.=$this->draw_metrics_segment('ga:searchGoalConversionRateAll');
 	$out.=$this->draw_metrics_segment('ga:goalValueAllPerSearch');
 	break;
@@ -573,7 +573,7 @@ $out='<label onclick="open_close(\'#'.$hid.'\')">'.$type.'</label>
 	break;
 	
 	case 'Custom Variables or Columns':
-	$out.=$this->draw_metrics_segment('ga:metricXX');
+	$out.=$this->draw_metrics_segment('ga:metric1');
 	break;
 	}
 $out.='</ul>';
